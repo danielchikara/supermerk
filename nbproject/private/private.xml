@@ -3,9 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/edeso/Desktop/proyectos/supermerk/src/supermercado/Controller/SuperMercado.java</file>
-            <file>file:/C:/Users/edeso/Desktop/proyectos/supermerk/src/supermercado/View/Venta.java</file>
-            <file>file:/C:/Users/edeso/Desktop/proyectos/supermerk/src/supermercado/View/Login.java</file>
+            <file>file:/C:/Users/bdani/Documents/NetBeansProjects/SuperMercado/src/supermercado/View/Venta.java</file>
+            <file>file:/C:/Users/bdani/Documents/NetBeansProjects/SuperMercado/src/supermercado/Model/User_Merk.java</file>
+            <file>file:/C:/Users/bdani/Documents/NetBeansProjects/SuperMercado/src/supermercado/Controller/SuperMercado.java</file>
+            <file>file:/C:/Users/bdani/Documents/NetBeansProjects/SuperMercado/src/supermercado/Controller/Produc.java</file>
+            <file>file:/C:/Users/bdani/Documents/NetBeansProjects/SuperMercado/src/supermercado/Model/Conexion.java</file>
+            <file>file:/C:/Users/bdani/Documents/NetBeansProjects/SuperMercado/src/supermercado/Model/CategoriaModel.java</file>
+            <file>file:/C:/Users/bdani/Documents/NetBeansProjects/SuperMercado/src/supermercado/View/Login.java</file>
+            <file>file:/C:/Users/bdani/Documents/NetBeansProjects/SuperMercado/src/supermercado/View/FrmProducto.java</file>
+            <file>file:/C:/Users/bdani/Documents/NetBeansProjects/SuperMercado/src/supermercado/Model/ProducModel.java</file>
+            <file>file:/C:/Users/bdani/Documents/NetBeansProjects/SuperMercado/src/supermercado/Model/FacturaModel.java</file>
+            <file>file:/C:/Users/bdani/Documents/NetBeansProjects/SuperMercado/src/supermercado/Controller/Categoria.java</file>
+            <file>file:/C:/Users/bdani/Documents/NetBeansProjects/SuperMercado/src/supermercado/Controller/User_Merk.java</file>
+            <file>file:/C:/Users/bdani/Documents/NetBeansProjects/SuperMercado/src/supermercado/Controller/Factura.java</file>
         </group>
     </open-files>
 </project-private>
