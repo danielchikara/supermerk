@@ -23,12 +23,20 @@ public class SuperMercado {
         conectar.conectar();
         conectar.conectar("localhost", "3306", "supermercado", "root","" );
         
+        SuperMercado llamarMetodo = new SuperMercado();
+        llamarMetodo.index();
         
-        Login vistaLogin = new Login ();
-        vistaLogin.setVisible(true);
                 
-        Venta vistaVenta = new  Venta();
-        vistaVenta.setVisible(true);
+        
     }
+    public  void index (){
+        Login inicio  = new Login();
+        inicio.setVisible(true);
+    }
+   public void  VistaVenta (){
+       Venta vistave = new Venta();
+       vistave.setVisible(true);
+       
+   }
    
 }

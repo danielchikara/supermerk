@@ -31,9 +31,18 @@ public class Venta extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jInternalFrame1 = new javax.swing.JInternalFrame();
         txtCodigo = new javax.swing.JTextField();
+        menuBar = new javax.swing.JMenuBar();
+        MenuVentas = new javax.swing.JMenu();
+        jMenu2 = new javax.swing.JMenu();
+        jMenu3 = new javax.swing.JMenu();
+        jMenu4 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jInternalFrame1.setVisible(true);
+        jInternalFrame1.getContentPane().setLayout(null);
 
         txtCodigo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -45,39 +54,54 @@ public class Venta extends javax.swing.JFrame {
                 txtCodigoKeyPressed(evt);
             }
         });
+        jInternalFrame1.getContentPane().add(txtCodigo);
+        txtCodigo.setBounds(46, 76, 123, 46);
+
+        menuBar.setBackground(new java.awt.Color(178, 145, 246));
+        menuBar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        menuBar.setForeground(new java.awt.Color(139, 125, 198));
+        menuBar.setToolTipText("");
+
+        MenuVentas.setText("Ventas");
+        menuBar.add(MenuVentas);
+
+        jMenu2.setText("Registar producto");
+        menuBar.add(jMenu2);
+
+        jMenu3.setText("Registrar  usuario");
+        menuBar.add(jMenu3);
+
+        jMenu4.setText("Total ventas");
+        menuBar.add(jMenu4);
+
+        jInternalFrame1.setJMenuBar(menuBar);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(161, 161, 161)
-                .addComponent(txtCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(161, Short.MAX_VALUE))
+            .addComponent(jInternalFrame1)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(68, 68, 68)
-                .addComponent(txtCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(331, Short.MAX_VALUE))
+            .addComponent(jInternalFrame1, javax.swing.GroupLayout.DEFAULT_SIZE, 361, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void txtCodigoKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtCodigoKeyPressed
+
+    }//GEN-LAST:event_txtCodigoKeyPressed
+
     private void txtCodigoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCodigoActionPerformed
-     
+
         if ("7707898692418".equals(txtCodigo.getText())) {
-               JOptionPane.showMessageDialog(null,"cuaderno");
+            JOptionPane.showMessageDialog(null,"cuaderno");
         } else {
             System.out.println("no se por que, por que murio por que el señor se la llevo");
         }
     }//GEN-LAST:event_txtCodigoActionPerformed
-
-    private void txtCodigoKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtCodigoKeyPressed
-      
-    }//GEN-LAST:event_txtCodigoKeyPressed
 
     /**
      * @param args the command line arguments
@@ -115,6 +139,12 @@ public class Venta extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JMenu MenuVentas;
+    private javax.swing.JInternalFrame jInternalFrame1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenu jMenu4;
+    private javax.swing.JMenuBar menuBar;
     private javax.swing.JTextField txtCodigo;
     // End of variables declaration//GEN-END:variables
 }
